@@ -1,4 +1,5 @@
 ## Tabel Barang
+```
 CREATE TABLE `barang` (
   `id_barang` int(11) NOT NULL AUTO_INCREMENT,
   `kode_barang` varchar(200) NOT NULL,
@@ -7,8 +8,9 @@ CREATE TABLE `barang` (
   `stok` int(10) NOT NULL,
   PRIMARY KEY (`id_barang`)
 ) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
-
+```
 ## Tabel Laporan
+```
 CREATE TABLE `laporan` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `kode_tranksaksi` varchar(255) NOT NULL,
@@ -19,9 +21,10 @@ CREATE TABLE `laporan` (
   `tanggal_tranksaksi` varchar(200) NOT NULL,
   `metode` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
-
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci`
+```
 ## Tabel User
+```
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(200) NOT NULL,
@@ -29,3 +32,4 @@ CREATE TABLE `users` (
   `kode_karyawan` varchar(200) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+```
