@@ -33,3 +33,18 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
 ```
+
+## Tech
+```
+  Python Version = 3.11.3
+  Package (Pypi) = {
+      mysql                       0.0.3
+      mysql-connector-python      8.3.0
+      mysqlclient                 2.2.0
+      Pillow                      10.0.0
+  }
+
+```
+
+
+
